@@ -11,7 +11,7 @@
 
 ## 使用说明
 
-1、Fork 本仓库，然后点击你的仓库右上角的 Settings，找到 Secrets 这一项，添加两个秘密环境变量`USERNAME`和`PASSWORD`。支持同时添加多个帐户，数据之间用单个空格 ` ` 隔开即可，帐户名和帐户密码需一一对应。**之前是用半角逗号分割的，更换成空格后，更新脚本后记得修改原变量的值**
+1、Fork  本仓库，然后点击你的仓库右上角的 Settings，找到 Secrets 这一项，添加两个秘密环境变量`USERNAME`和`PASSWORD`。支持同时添加多个帐户，数据之间用单个空格 ` ` 隔开即可，帐户名和帐户密码需一一对应。**之前是用半角逗号分割的，更换成空格后，更新脚本后记得修改原变量的值**
 
 ```
 USERNAME: 你的EUserv账户邮箱或Customer ID 第二个账户
@@ -49,5 +49,4 @@ schedule:
 ~~2、由于Github Workflow的限制，你可能需要每两个月重新启动一下，方法是随便改下本README.md~~（本项目目前每月会自动向仓库提交commit，Workflow应该不会被自动暂停了）
 
 ## 参考（及本文档）
-
 hostloc-auto-get-points: https://github.com/inkuang/hostloc-auto-get-points  MIT License
